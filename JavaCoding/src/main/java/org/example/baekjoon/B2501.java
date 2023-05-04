@@ -8,7 +8,6 @@ public class B2501 {
         System.setIn(new FileInputStream("/Users/hyeonjinkim/Desktop/JavaCoding/src/main/java/org/example/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] s=br.readLine().split(" ");
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int N = Integer.parseInt(s[0]);
         int K = Integer.parseInt(s[1]);
